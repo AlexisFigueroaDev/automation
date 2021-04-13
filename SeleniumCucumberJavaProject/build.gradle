@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'CursoUdemy'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 13
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '6.9.1'
+    testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '6.9.1'
+    implementation group: 'javax.xml.ws', name: 'jaxws-api', version: '2.3.1'
+    implementation group: 'javax.xml.soap', name: 'javax.xml.soap-api', version: '1.4.0'
+
+}
+
